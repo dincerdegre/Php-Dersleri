@@ -15,5 +15,5 @@ endif;
 }
 $degre = new DegreClass();
 $degre->birthyear = 1984;
-$degre->agefromBirthyear();
+echo $degre->agefromBirthyear();
 ?>
