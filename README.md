@@ -1,2 +1,2 @@
-# phpdersleri
-PHP Alıştırmalarımın Hepsi Yazdığım Fonksiyonlar dahil
+# PHP ile Yaş Hesaplama
+PHP Alıştırmaları ve Hazırladığım Fonksiyonlarım
