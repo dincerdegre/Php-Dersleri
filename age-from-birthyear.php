@@ -1,4 +1,5 @@
 <?php
+// Sınıf Sistemine Göre
 // Age From Birthday (Birthyear)
 // Doğum gününden (Yılından) Yaş Hesaplama
 class DegreClass {
@@ -16,4 +17,16 @@ endif;
 $degre = new DegreClass();
 $degre->birthyear = 1984;
 echo $degre->agefromBirthyear();
+
+// Klasik PHP Yapısı ile
+function agefromBirthyear($birthyear){
+if (isset($birthyear)):
+$yearnow = date("Y");
+$age = $yearnow - $birthyear;
+return $age;
+endif;
+}
+
+echo agefromBirthyear(1984);
+
 ?>
