@@ -1,5 +1,4 @@
 <?php
-// MVC Yapısı ile (Object Oriented)
 // Age From Birthday (Birthyear)
 // Doğum gününden (Yılından) Yaş Hesaplama
 class DegreClass {
